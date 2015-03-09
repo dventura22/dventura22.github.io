@@ -1,0 +1,92 @@
+body {
+  padding: 0px;
+  margin: 0;
+}
+header {
+  font-family: monospace;
+  color: black;
+  margin: 0;
+  text-align: center;
+  padding: 1px;
+  border-bottom: ;
+}
+
+h3 {
+  font-size: 3em;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav {
+  width: 65%;
+  float: left;
+  /*margin: auto;*/
+  padding: 0;
+  display: inline-block;
+}
+#blog {
+  border: 3px solid red;
+  font-family: monospace;
+  background-color: red;
+  color: gray;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+#about {
+  border: 3px solid LightSteelBlue;
+  font-family: monospace;
+  background-color: LightSteelBlue;
+  color: red;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin-left: 60%;
+  margin-top: -20%;
+}
+
+#work {
+  border: 3px solid blue;
+  font-family: monospace;
+  color: orange;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+#contact {
+  border: 3px solid Maroon;
+  font-family: monospace;
+  color: violet;
+  height: 1px;
+  width: 1px;
+  /*padding: 100px;*/
+  border-radius: 100%;
+  margin-left: 85%;
+  margin-top: -29%;
+  background-color: Maroon;
+  /*text-align: center;*/
+}
+
+#video {
+  float: right;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+video {
+  height: 300px;
+  width: 250px;
+}
+footer {
+  padding-top: 5%;
+  clear: both;
+  text-align: right;
+  padding-right: 10px;
+};
