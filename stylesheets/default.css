@@ -89,4 +89,14 @@ footer {
   clear: both;
   text-align: right;
   padding-right: 10px;
-};
+}
+nav img {
+  height: 50px;
+  width: 50px;
+}
+nav{
+  display: inline-block;
+}
+footer p {
+  display: inline-block;
+}

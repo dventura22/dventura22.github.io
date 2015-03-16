@@ -44,6 +44,12 @@ div {
   font-family: monospace;
   color: violet;
 }
+#entry img{
+  margin: auto;
+  height: 250px;
+  width: 40%;
+  display: inline-block;
+}
 #about {
   border: 3px solid #6d696d;
   font-family: monospace;
