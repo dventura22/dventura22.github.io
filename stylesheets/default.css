@@ -1,12 +1,13 @@
 body {
   padding: 0px;
   margin: 0;
+  background-color: #bcb3a5
 }
 header {
   font-family: monospace;
-  color: black;
   margin: 0;
-  text-align: center;
+  margin-right: 5%;
+  text-align: right;
   padding: 1px;
   border-bottom: ;
 }
@@ -14,6 +15,7 @@ header {
 h3 {
   font-size: 3em;
   padding-bottom: 10px;
+  color: firebrick;
 }
 
 a {
@@ -21,68 +23,73 @@ a {
 }
 
 #nav {
-  width: 65%;
+  width: 60%;
   float: left;
   /*margin: auto;*/
   padding: 0;
   display: inline-block;
 }
 #blog {
-  border: 3px solid red;
   font-family: monospace;
-  background-color: red;
-  color: gray;
-  height: 200px;
-  width: 200px;
+  background-color: #A37D55;
+  color: #e5b739;
+  height: 155px;
+  width: 155px;
   border-radius: 100%;
+  line-height: 155px;
+  margin-top: -8%;
+  margin-left: 6%;
 }
 
 #about {
-  border: 3px solid LightSteelBlue;
   font-family: monospace;
-  background-color: LightSteelBlue;
-  color: red;
-  height: 150px;
-  width: 150px;
+  background-color: #9cac73;
+  color: #fff8dc;
+  height: 175px;
+  width: 175px;
   border-radius: 100%;
-  margin-left: 60%;
+  margin-left: 45%;
   margin-top: -20%;
+  line-height: 165px;
 }
 
 #work {
-  border: 3px solid blue;
   font-family: monospace;
-  color: orange;
-  height: 250px;
-  width: 250px;
+  background-color: #e5b739;
+  color: #A37D55;
+  height: 270px;
+  width: 270px;
   border-radius: 100%;
   margin-left: 10%;
-  margin-top: 4%;
+  margin-top: 10%;
+  line-height: 270px;
 }
 
 #contact {
-  border: 3px solid Maroon;
   font-family: monospace;
-  color: violet;
-  height: 1px;
-  width: 1px;
-  /*padding: 100px;*/
+  color: #9cac73;
+  height: 210px;
+  width: 210px;
   border-radius: 100%;
-  margin-left: 85%;
-  margin-top: -29%;
-  background-color: Maroon;
-  /*text-align: center;*/
+  margin-left: 60%;
+  margin-top: -39%;
+  background-color: #fff8dc;
+  line-height: 210px;
 }
 
+div {
+  text-align: center;
+  font-size: 1.5em;
+}
 #video {
   float: right;
   display: inline-block;
   margin-right: 5%;
 }
 
-video {
-  height: 300px;
-  width: 250px;
+img {
+  height: 250px;
+  width: 350px;
 }
 footer {
   padding-top: 5%;
